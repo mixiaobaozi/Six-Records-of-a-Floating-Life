@@ -1,0 +1,17 @@
+{
+	id: "ef30c928-7f05-4560-8a8a-cb6cc7af0cb3"
+	type: "player"
+	player_name: "mi_xiao_bao"
+	ranks: {
+		ef30c928-7f05-4560-8a8a-cb6cc7af0cb3: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "mi_xiao_bao"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9959FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
