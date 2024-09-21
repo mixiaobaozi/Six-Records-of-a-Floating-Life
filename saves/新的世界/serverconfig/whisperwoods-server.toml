@@ -19,7 +19,7 @@
 			#Range: 1 ~ 9999
 			maximum_group_size = 3
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-			spawn_biomes = ["minecraft:dark_forest", "ars_elemental:flashing_forest", "hexerei:willow_swamp", "minecraft:forest", "minecraft:mangrove_swamp", "minecraft:swamp", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:flower_forest", "ars_elemental:blazing_forest", "ars_nouveau:archwood_forest", "minecraft:old_growth_birch_forest", "minecraft:birch_forest", "ars_elemental:flourishing_forest", "autumnity:maple_forest"]
+			spawn_biomes = ["autumnity:maple_forest", "minecraft:dark_forest", "ars_elemental:cascading_forest", "minecraft:old_growth_birch_forest", "hexerei:willow_swamp", "minecraft:flower_forest", "ars_elemental:flashing_forest", "ars_elemental:flourishing_forest", "minecraft:swamp", "ars_nouveau:archwood_forest", "ars_elemental:blazing_forest", "minecraft:birch_forest", "minecraft:forest", "minecraft:mangrove_swamp", "minecraft:grove"]
 
 			[entities.moth.spawning.spawn_costs]
 				#Whether to use spawn costs in spawning or not
@@ -48,7 +48,7 @@
 			#Range: 1 ~ 9999
 			maximum_group_size = 1
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-			spawn_biomes = ["minecraft:dark_forest", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:flower_forest", "ars_elemental:blazing_forest", "ars_elemental:flashing_forest", "ars_nouveau:archwood_forest", "minecraft:old_growth_birch_forest", "minecraft:forest", "minecraft:birch_forest", "ars_elemental:flourishing_forest", "autumnity:maple_forest"]
+			spawn_biomes = ["ars_elemental:flashing_forest", "ars_elemental:flourishing_forest", "ars_nouveau:archwood_forest", "ars_elemental:blazing_forest", "autumnity:maple_forest", "minecraft:dark_forest", "minecraft:birch_forest", "minecraft:forest", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:old_growth_birch_forest", "minecraft:flower_forest"]
 			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
 			biome_based_variants = true
 
@@ -84,7 +84,7 @@
 			#Range: 1 ~ 9999
 			maximum_group_size = 3
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-			spawn_biomes = ["minecraft:dark_forest", "ars_elemental:flashing_forest", "hexerei:willow_swamp", "minecraft:forest", "minecraft:mangrove_swamp", "minecraft:swamp", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:flower_forest", "ars_elemental:blazing_forest", "ars_nouveau:archwood_forest", "minecraft:old_growth_birch_forest", "minecraft:birch_forest", "ars_elemental:flourishing_forest", "autumnity:maple_forest"]
+			spawn_biomes = ["autumnity:maple_forest", "minecraft:dark_forest", "ars_elemental:cascading_forest", "minecraft:old_growth_birch_forest", "hexerei:willow_swamp", "minecraft:flower_forest", "ars_elemental:flashing_forest", "ars_elemental:flourishing_forest", "minecraft:swamp", "ars_nouveau:archwood_forest", "ars_elemental:blazing_forest", "minecraft:birch_forest", "minecraft:forest", "minecraft:mangrove_swamp", "minecraft:grove"]
 
 			[entities.wisp.spawning.spawn_costs]
 				#Whether to use spawn costs in spawning or not
@@ -115,7 +115,7 @@
 			#Range: 1 ~ 9999
 			maximum_group_size = 1
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-			spawn_biomes = ["minecraft:dark_forest", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:flower_forest", "ars_elemental:blazing_forest", "ars_elemental:flashing_forest", "ars_nouveau:archwood_forest", "minecraft:old_growth_birch_forest", "minecraft:forest", "minecraft:birch_forest", "ars_elemental:flourishing_forest", "autumnity:maple_forest"]
+			spawn_biomes = ["ars_elemental:flashing_forest", "ars_elemental:flourishing_forest", "ars_nouveau:archwood_forest", "ars_elemental:blazing_forest", "autumnity:maple_forest", "minecraft:dark_forest", "minecraft:birch_forest", "minecraft:forest", "ars_elemental:cascading_forest", "minecraft:grove", "minecraft:old_growth_birch_forest", "minecraft:flower_forest"]
 
 			[entities.hirschgeist.spawning.spawn_costs]
 				#Whether to use spawn costs in spawning or not
@@ -144,7 +144,7 @@
 			#Range: 1 ~ 9999
 			maximum_group_size = 1
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-			spawn_biomes = ["minecraft:snowy_beach", "minecraft:snowy_slopes", "minecraft:lush_caves", "minecraft:jungle", "minecraft:frozen_peaks", "minecraft:beach", "minecraft:grove", "minecraft:windswept_forest", "ars_elemental:blazing_forest", "minecraft:cherry_grove", "minecraft:jagged_peaks", "minecraft:snowy_plains", "ars_elemental:flourishing_forest", "autumnity:maple_forest", "minecraft:dark_forest", "ars_elemental:flashing_forest", "hexerei:willow_swamp", "minecraft:windswept_hills", "minecraft:forest", "minecraft:sparse_jungle", "minecraft:mangrove_swamp", "minecraft:swamp", "minecraft:taiga", "ars_elemental:cascading_forest", "minecraft:flower_forest", "minecraft:snowy_taiga", "ars_nouveau:archwood_forest", "minecraft:old_growth_birch_forest", "minecraft:bamboo_jungle", "minecraft:birch_forest", "minecraft:meadow", "minecraft:old_growth_pine_taiga", "minecraft:stony_peaks", "minecraft:windswept_gravelly_hills"]
+			spawn_biomes = ["minecraft:sparse_jungle", "minecraft:old_growth_pine_taiga", "minecraft:windswept_gravelly_hills", "minecraft:frozen_peaks", "ars_elemental:cascading_forest", "minecraft:snowy_plains", "ars_elemental:flashing_forest", "ars_elemental:flourishing_forest", "ars_nouveau:archwood_forest", "minecraft:windswept_forest", "minecraft:forest", "minecraft:mangrove_swamp", "minecraft:lush_caves", "minecraft:grove", "minecraft:windswept_hills", "minecraft:beach", "minecraft:jungle", "minecraft:cherry_grove", "minecraft:meadow", "minecraft:snowy_slopes", "autumnity:maple_forest", "minecraft:dark_forest", "minecraft:snowy_taiga", "minecraft:jagged_peaks", "minecraft:old_growth_birch_forest", "hexerei:willow_swamp", "minecraft:flower_forest", "minecraft:stony_peaks", "minecraft:snowy_beach", "minecraft:swamp", "ars_elemental:blazing_forest", "minecraft:birch_forest", "minecraft:taiga", "minecraft:bamboo_jungle"]
 
 			[entities.zotzpyre.spawning.spawn_costs]
 				#Whether to use spawn costs in spawning or not

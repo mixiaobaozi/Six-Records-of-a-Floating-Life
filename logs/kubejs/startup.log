@@ -1,8 +1,12 @@
-[22:07:09] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[22:07:09] [INIT] Loaded plugins:
-[22:07:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[22:07:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[22:07:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[22:07:10] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[22:07:10] [INFO] Loaded script startup_scripts:example.js in 0.074 s
-[22:07:10] [INFO] Loaded 1/1 KubeJS startup scripts in 0.815 s with 0 errors and 0 warnings
+[12:44:05] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[12:44:05] [INIT] Loaded plugins:
+[12:44:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[12:44:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[12:44:05] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[12:44:05] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[12:44:05] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[12:44:05] [INIT] - com.probejs.ProbeJSPlugin
+[12:44:05] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[12:44:07] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[12:44:07] [INFO] Loaded script startup_scripts:example.js in 0.113 s
+[12:44:07] [INFO] Loaded 1/1 KubeJS startup scripts in 1.483 s with 0 errors and 0 warnings
