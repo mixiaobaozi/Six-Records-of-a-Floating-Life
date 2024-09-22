@@ -19,7 +19,7 @@ function offering(input,start_item,output){
         "item": output
         }
     })
-},
+}
 ///自然灵气祭坛
 /**
  * 
@@ -46,6 +46,6 @@ function altar(input,output,catalyst,aura,time){
         "aura": aura,
         "time": time    
     })
-},
+}
 
 
