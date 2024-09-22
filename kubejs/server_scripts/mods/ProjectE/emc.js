@@ -1,3 +1,3 @@
-ServerEvents.recipes(e=>{
-    e.remove({ mod: 'projecte' })
+ServerEvents.recipes(event=>{
+    event.remove({ mod: 'projecte' })
 })
