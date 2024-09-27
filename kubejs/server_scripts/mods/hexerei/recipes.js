@@ -11,6 +11,13 @@ ServerEvents.recipes(event=>{
             "minecraft:cauldron",
             "minecraft:conduit"
         ]).id("hexerei:mixing_cauldron")
+    event.shaped("hexerei:pestle_and_mortar",[
+        "   ",
+        "A A",
+        "AAA"
+    ],{
+        A:"minecraft:cobblestone_slab"
+    })
     
 }) 
    

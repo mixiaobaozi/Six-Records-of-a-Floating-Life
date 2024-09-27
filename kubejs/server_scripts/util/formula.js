@@ -49,3 +49,4 @@ function altar(input,output,catalyst,aura,time){
 }
 
 
+
