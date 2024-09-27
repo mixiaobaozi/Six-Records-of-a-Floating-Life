@@ -7,12 +7,12 @@ ServerEvents.recipes(event=>{
     event.recipes.create.milling(
     "minecraft:redstone",
     "spelunkery:cinnabar"
-    )
+    ).id("milling:redstone")
     event.recipes.create.crushing(
       ["2x minecraft:redstone",
       Item.of("minecraft:redstone").withChance(0.5)],
       "spelunkery:cinnabar"
-    )
+    ).id("crushing:redstone")
     ///安山合金
     event.custom(
         {
@@ -56,5 +56,5 @@ ServerEvents.recipes(event=>{
           },
           "fluidLevelsConsumed": 500,
           "heatRequirement": "heated"
-        })
+        }).id("mixingcauldron:andesite_alloy")
 })

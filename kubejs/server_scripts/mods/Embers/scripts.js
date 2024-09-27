@@ -30,5 +30,5 @@ ServerEvents.recipes(event=>{
               "count": 8
             },
             "grindingTime": 300
-        })
+        }).id("pestle:caminite_blend")
 })

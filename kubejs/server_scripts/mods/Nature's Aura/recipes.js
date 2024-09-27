@@ -11,6 +11,6 @@ ServerEvents.recipes(event=>{
         "hexerei:belladonna_flowers",
         "hexerei:mandrake_flowers",
         "hexerei:mugwort_flowers"
-    ])
+    ]).id("petal_apothecary:gald_fiber")
 
 })

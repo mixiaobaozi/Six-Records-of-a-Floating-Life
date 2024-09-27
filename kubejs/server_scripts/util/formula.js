@@ -1,5 +1,5 @@
 // priority: 100
-///自然灵气神灵仪式
+///自然灵气诸神召唤
 /**
  * 
  * @param {string} input 

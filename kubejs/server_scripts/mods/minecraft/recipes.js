@@ -18,7 +18,7 @@ ServerEvents.recipes(event=>{
         A:  "#forge:raw_fishes",
         B:  "minecraft:prismarine_crystals",
         C:  "minecraft:heart_of_the_sea"
-    })
+    }).id("shaped:conduit")
     event.shaped("minecraft:furnace",[
         "AAA",
         "ABA",
@@ -27,7 +27,7 @@ ServerEvents.recipes(event=>{
         A:"minecraft:cobblestone",
         B:"embers:caminite_brick",
         C:"minecraft:campfire"
-    })
+    }).id("shaped:furnace")
     event.shaped("minecraft:blast_furnace",[
         "AAA",
         "ABA",
@@ -36,7 +36,7 @@ ServerEvents.recipes(event=>{
         A: "create:iron_sheet",
         B: "minecraft:furnace",
         C: "embers:ember_crystal"
-    })
+    }).id("shaped:blast_furnace")
     event.custom({
         "type": "hexerei:pestle_and_mortar",
         "ingredients": [
@@ -61,5 +61,5 @@ ServerEvents.recipes(event=>{
             "count": 2
         },
         "grindingTime": 300
-    })
+    }).id("pestle:prismarine_crystals")
 })
