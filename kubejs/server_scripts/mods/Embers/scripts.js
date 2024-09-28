@@ -31,4 +31,7 @@ ServerEvents.recipes(event=>{
             },
             "grindingTime": 300
         }).id("pestle:caminite_blend")
+    event.campfireCooking(
+    "embers:caminite_brick",
+    "embers:caminite_blend").id("campfireCooking:caminte_brick")
 })
