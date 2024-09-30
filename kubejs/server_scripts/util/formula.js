@@ -48,5 +48,40 @@ function altar(input,output,catalyst,aura,time){
     })
 }
 
-
-
+/**
+ * @param {fluid} Array
+ * @param {input} Array
+ * @param {output} Array
+ *
+function altar(fluid,input,output){
+        heatRequirement="heated"
+        var inputs = new String
+        for(i in input){
+            inputs.concat(
+                {
+                    "item": i
+                },
+            )
+        }
+        event.custom(
+        {
+            "type": "hexerei:mixingcauldron",
+            "liquid": {
+            "fluid": fluid[0]
+            },
+            "ingredients":[
+                inputs
+            ]
+        },
+            "output": {
+            "item": output[0],
+            "count": output[1]
+        },
+            "liquidOutput": {
+            "fluid": fluid[0]
+        }, 
+            "fluidLevelsConsumed": fluid[1],
+            "heatRequirement": "heated"      
+        )
+}
+*/
